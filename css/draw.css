@@ -1,0 +1,170 @@
+body,p,ul,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,pre,li,form,input,select,textarea{
+    margin:0;padding:0;
+    list-style:none;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+img{
+    border:0px;
+}
+a{
+    text-decoration: none;
+}
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+.bg{
+    width:100%;height:635px;
+    background:#111;
+    position: relative;
+}
+.title{
+    width:100%;height:70px;
+    background:#222;
+    font-size: 30px;
+    color:#fff;
+    text-align: center;
+    line-height: 70px
+}
+.menu1{
+    width:100%;height:30px;
+    background: #222;
+    margin-top:2px;
+}
+.menu{
+    width:50px;height: 530px;
+    position:absolute;
+    left:0;bottom:0;
+    background:#232323;
+}
+.menu-list{
+    width:50px;height:50px;
+    background:#222;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color:#fff;
+    position: relative;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-family: iconfont;
+}
+.menu-list:hover{
+    background: #333;
+}
+
+.ys{
+    width:45px;height:30px;
+    background: #fff;
+}
+.xtbox{
+    width:120px;height:40px;
+    position: absolute;
+    left:50px;top:5px;
+    z-index: 999;
+    display: none;
+}
+.st,.fi{
+    width:40px;height:40px;
+    float:left;
+    background:#111;
+    line-height: 40px;
+    transition:all 0.3s linear;
+}
+.st:hover{
+    background: #222;
+}
+.fi:hover{
+    background: #222;
+}
+.xt-c,.xt-z,.xt-x{
+    width:40px;height:40px;
+    float:left;
+    background:#111;
+    line-height: 40px;
+    transition:all 0.3s linear;
+}
+.menu-list:hover .xtbox{
+    display: block;
+}
+.xt-c:hover{
+    background: #222;
+}
+.xt-z:hover{
+    background: #222;
+}
+.xt-x:hover{
+    background: #222;
+}
+.file{
+    width:80px;height:30px;
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    float: left;
+    font-family: iconfont;
+    font-size: 20px;
+}
+.file1{
+    float:right;
+}
+.sec{
+    width:80px;height:auto;
+    z-index: 999;
+    position: relative;
+    display: none;
+    cursor: pointer;
+    background: #222;
+    transition: all 0.3s linear;
+}
+.file:hover{
+    background: #333;
+}
+.file:hover .sec{
+    display: block;
+}
+.file .sec-list{
+    background: #222;
+    transition: all 0.3s linear;
+    font-family: iconfont;
+}
+.file .sec-list:hover{
+    background: #333;
+}
+canvas{
+    position: absolute;
+    bottom:0;right:0;
+}
+.copy{
+    width:1270px;height:530px;
+    position: absolute;
+    right:0px;bottom:0px;
+    margin-left:1px;
+    z-index:2;
+
+}
+.copy1{
+    width:1270px;height:530px;
+    position:absolute;
+    right:0;bottom:0px;
+    z-index:1;
+}
+.xpele{
+    width:20px;height:20px;
+    position: absolute;
+    border:1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    display: none;
+
+}
+
+
