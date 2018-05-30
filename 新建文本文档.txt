@@ -1,0 +1,32 @@
+function allowFormsInIscroll(){
+ [].slice.call(document.querySelectorAll('input, select, button')).forEach(function(el){
+ el.addEventListener(('ontouchstart' in window)?'touchstart':'mousedown', function(e){
+ e.stopPropagation();
+ 
+ })
+ })
+ }
+ document.addEventListener('DOMContentLoaded', allowFormsInIscroll, false);
+
+
+
+
+
+
+
+
+
+case 'click':  
+    if ( this.enabled && !e._constructed && !utils.preventDefaultException(e.target, this.options.preventDefaultException)) {             
+        e.preventDefault();  
+        e.stopPropagation();  
+    }  
+break;  
+
+
+
+
+
+
+
+
