@@ -1,30 +1,8 @@
-function allowFormsInIscroll(){
- [].slice.call(document.querySelectorAll('input, select, button')).forEach(function(el){
- el.addEventListener(('ontouchstart' in window)?'touchstart':'mousedown', function(e){
- e.stopPropagation();
- 
- })
- })
- }
- document.addEventListener('DOMContentLoaded', allowFormsInIscroll, false);
-
-
-
-
-
-
-
-
-
-case 'click':  
-    if ( this.enabled && !e._constructed && !utils.preventDefaultException(e.target, this.options.preventDefaultException)) {             
-        e.preventDefault();  
-        e.stopPropagation();  
-    }  
-break;  
-
-
-
+permissionList.push(
+								{ menuIcon: "icon-zhanghuguanli color-finance", menuUrl: "receipt", state:"receipt.receiptList",type:'1',menuName:"收款单" },
+								{ menuIcon: "icon-zhanghuguanli color-finance", menuUrl: "claimlist", state:"claimlist.claimlist",type:"1",menuName:"认领单" },
+								{ menuIcon: "icon-zhanghuguanli color-finance", menuUrl: "relatedOrder", state:"relatedOrder.relatedOrderList",type:'1',menuName:"关联订单" })
+	
 
 
 
